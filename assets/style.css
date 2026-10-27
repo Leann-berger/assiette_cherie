@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+a.logo {
+    font-weight: bolder;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration-line: underline;
+    text-decoration-color:chocolate;
+}
+
+header {
+    background-color: bisque;
+    padding: 2rem;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    
+    nav>a {
+        padding-left: 1rem;
+    }
+}
+
+main {
+    background-color: beige;
+    padding: 3rem;
+
+    img {
+        width: 50rem;
+        max-width: 80%;
+        aspect-ratio: 16/9;
+        object-fit: cover;
+        border-radius: 10px;
+        box-shadow: 2px 2px 10px black;
+    }
+}
+
+#intro-menu {
+    margin-bottom: 2rem;
+}
+
+.plat-menu {
+    padding: 1.3rem;
+}
+
+footer {
+    background-color: bisque;
+    padding: 2rem 5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 775px) {
+    header, footer {
+        flex-direction: column;
+    }
+}

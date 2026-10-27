@@ -4,62 +4,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>menu</title>
-    <link rel="stylesheet" href="asset/style.css">
+    <title>Menu - L'Assiette Chérie</title>
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 
 <body>
     <header>
-        <div><a href="index.html">L’Assiette <span>Chérie</span></a>
-            <nav aria-label="Navigation principale"><a href="index.html">Accueil</a><a
-                    href="index.html#specialites">Spécialités</a><a href="jambalaya.html">Jambalaya</a><a
-                    href="gumbo.html">Gumbo</a><a href="cuisine-cajun.html">Cuisine cajun</a></nav>
-        </div>
+        <a class="logo" href="index.html">L'Assiette Chérie</a>
+        <nav aria-label="Navigation principale">
+            <a href="index.html">Accueil</a>
+            <a href="menu.html">Menu</a>
+            <a href="cuisine-cajun.html">Cuisine cajun</a>
+        </nav>
     </header>
+
     <main>
-        <div>
-            <div>
-                <p>Une cuisine épicée et généreuse</p>
-                <h2>Nos spécialités louisianaises</h2>
-                <p>Des recettes emblématiques de Louisiane, pensées pour les curieux de
-                    nouvelles saveurs et les amateurs de plats relevés.</p>
-            </div>
-            <div>
-                <article><img src="assets/assiette-cherie-jambalaya.webp" loading="lazy" width="900" height="650"
-                        alt="Illustration d’une assiette de jambalaya aux épices cajun">
-                    <div><span>Spécialité maison</span>
-                        <h3>Jambalaya</h3>
-                        <p>Riz, légumes, épices et garnitures : un plat incontournable de la Louisiane.</p><a
-                            href="jambalaya.html">Découvrir le jambalaya</a>
-                    </div>
-                </article>
-                <article><img src="assets/assiette-cherie-gumbo.jpg" loading="lazy" width="900" height="650"
-                        alt="Illustration d’un gumbo, ragoût louisianais">
-                    <div>
-                        <h3>Gumbo</h3>
-                        <p>Un ragoût riche et parfumé, symbole des traditions culinaires louisianaises.</p>
-                    </div>
-                </article>
-                <article><img src="assets/assiette-cherie-cake.webp" loading="lazy" width="900" height="650"
-                        alt="Illustration d’un carotte cake">
-                    <div>
-                        <h3>gateau au potiron et au épice</h3>
-                        <p>Délicieux gateau, symbole des traditions culinaires louisianaises.</p>
-                    </div>
-                </article>
-            </div>
+        <div id="intro-menu">
+            <h1>Nos spécialités louisianaises</h2>
+            <p>Des recettes emblématiques de Louisiane, pensées pour les curieux de
+                nouvelles saveurs et les amateurs de plats relevés.</p>
         </div>
+
+        <article class="plat-menu">
+            <img src="assets/assiette-cherie-jambalaya.webp" loading="lazy"
+                alt="Illustration d'une assiette de jambalaya aux épices cajun">
+            <div>
+                <h2>Jambalaya</h2>
+                <p>Riz, légumes, épices et garnitures : un plat incontournable de la Louisiane.</p>
+            </div>
+        </article>
+
+        <article class="plat-menu">
+            <img src="assets/assiette-cherie-gumbo.jpg" loading="lazy"
+                alt="Illustration d'un gumbo, ragoût louisianais">
+            <div>
+                <h2>Gumbo</h2>
+                <p>Un ragoût riche et parfumé, symbole des traditions culinaires louisianaises.</p>
+            </div>
+        </article>
+
+        <article class="plat-menu">
+            <img src="assets/assiette-cherie-cake.webp" loading="lazy"
+                alt="Illustration d'un gâteau au potiron et aux épices">
+            <div>
+                <h2>Gâteau au potiron et aux épices</h2>
+                <p>Délicieux gâteau, symbole des traditions culinaires louisianaises.</p>
+            </div>
+        </article>
+
+
     </main>
-    <footer class="footer">
-        <div class="container footer-inner">
-            <div><strong>L’Assiette Chérie</strong>
-                <p>Restaurant d’inspiration louisianaise à Toulouse, quartier Saint-Cyprien.<br>Un projet de restaurant
-                    fictif réalisé dans le cadre d’un TP SEO.</p>
-            </div>
-            <div><strong>Découvrir</strong>
-                <p><a href="jambalaya.html">Le jambalaya</a><br><a href="gumbo.html">Le gumbo</a><br><a
-                        href="cuisine-cajun.html">La cuisine cajun</a></p>
-            </div>
+
+    <footer>
+        <div>
+            <strong>L'Assiette Chérie</strong>
+            <p>Restaurant d'inspiration louisianaise à Toulouse, quartier Saint-Cyprien.</p>
+        </div>
+        <div>
+            <strong>Plan du site</strong>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="cuisine-cajun.html">La cuisine cajun</a></li>
+            </ul>
         </div>
     </footer>
 </body>
